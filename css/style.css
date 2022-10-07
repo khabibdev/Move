@@ -1,0 +1,69 @@
+/* *******************************
+Header
+********************************** */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    height: 13.3rem;
+}
+
+.logo {
+    height: 5.4rem;
+    margin-right: 41.25rem;
+}
+
+/* ******************************
+Navigation
+****************************** */
+
+.main-nav-link {
+    margin-right: 1.5rem;
+    color: #8a94a6;
+}
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #377dff;
+}
+
+.nav-cta {
+    margin: 0;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.3rem;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #377dff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #2758b3;
+    color: #fff;
+}
+
+.chevron-down {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1rem;
+    margin-right: 2.85rem;
+}

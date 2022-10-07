@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    color: #8a94a6;
+    overflow-x: hidden;
+}
+
+/* **********************s
+General Reusable Components 
+************************/
+
+.container {
+    /* 1440px */
+    max-width: 144rem;
+    padding: 3.8rem 10rem;
+    margin: 0 auto;
+}
