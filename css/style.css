@@ -110,3 +110,53 @@ Hero Section
 .hero-text-box {
     padding-top: 10rem;
 }
+
+/* ******************************
+Offer Section
+******************************* */
+
+.section-offer {
+    background-color: #fafbfc;
+    padding-top: 10.8rem;
+    max-width: 144rem;
+    margin: 0 auto;
+    height: 109.9rem;
+}
+
+.offer-text-box {
+    text-align: center;
+}
+
+.heading-describtion {
+    margin-bottom: 4.3rem;
+}
+
+.offer-icon {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 2.936rem;
+}
+
+.offer {
+    width: 60.4rem;
+    height: 28.5rem;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 3.2rem 0 0 3.1rem;
+}
+
+.offer-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    color: #323b4b;
+    margin-bottom: 2.13rem;
+}
+
+.offer-text {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #8a94a6;
+}
