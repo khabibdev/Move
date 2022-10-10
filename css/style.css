@@ -160,3 +160,27 @@ Offer Section
     line-height: 3rem;
     color: #8a94a6;
 }
+
+/* ******************************
+Dream-job Section
+******************************* */
+.section-dream-job {
+    display: flex;
+    gap: 15rem;
+    max-width: 144rem;
+    height: 90rem;
+}
+
+.job-img {
+    width: 60.4rem;
+    height: 61.6rem;
+    border-radius: 15px;
+}
+
+.dream-job-text {
+    padding-top: 26.96rem;
+}
+
+.dream-job-img {
+    padding-top: 13.5rem !important;
+}
