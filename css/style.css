@@ -281,3 +281,79 @@ Vacancy Section
     background-color: #2758b3;
     color: #fff;
 }
+
+/* *************************
+**********FOOTER***********
+************************* */
+.footer {
+    padding: 13.2rem 16.6rem 0 10rem;
+    max-width: 144rem;
+    margin: auto;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company__brand {
+    flex: 0 0 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+
+.company__logo {
+    height: 4rem;
+    width: auto;
+}
+
+.company__brand > p,
+.company__legal > p {
+    font-size: 2rem;
+    font-weight: 1.8rem;
+    line-height: 3.2rem;
+    color: #8a94a6;
+}
+
+.company__socials {
+    display: flex;
+    gap: 6rem;
+}
+.social-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    color: #b0b7c3;
+}
+.company__links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.company__links {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.company__links li {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    list-style: none;
+}
+
+.company__links h6 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #323b4b;
+}
+.nav__link {
+    text-decoration: none;
+    color: #8a94a6;
+}
+
+.copyright {
+    padding-top: 9.6rem;
+}
