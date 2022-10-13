@@ -286,13 +286,14 @@ Vacancy Section
 **********FOOTER***********
 ************************* */
 .footer {
-    padding: 13.2rem 16.6rem 0 10rem;
+    padding: 13.2rem 0 0 10rem;
     max-width: 144rem;
     margin: auto;
+    height: 66rem;
 }
 .footer__content {
     display: flex;
-    justify-content: space-between;
+    gap: 7rem;
 }
 
 .company__brand {
@@ -301,6 +302,7 @@ Vacancy Section
     flex-direction: column;
     align-items: flex-start;
     gap: 3.2rem;
+    margin-right: 14rem;
 }
 
 .company__logo {
