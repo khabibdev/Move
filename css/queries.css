@@ -1,0 +1,61 @@
+/* **********************
+BELOW 1024PX (Tablets) 
+************************/
+
+@media (max-width: 64em) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading-primary {
+        font-size: 4rem;
+        line-height: 5.5rem;
+    }
+    .heading-describtion {
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+    }
+    .header-link {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .hero-img {
+        width: 50rem;
+    }
+    .offer {
+        width: 50rem;
+        height: 32rem;
+        align-items: center;
+    }
+    .container {
+        gap: 3rem;
+    }
+    .job-img {
+        width: 48.2rem;
+        height: 47.4rem;
+    }
+    .dream-job-img {
+        margin-right: 5rem;
+    }
+    .section-dream-job {
+        margin-bottom: 0;
+    }
+    .vacancy-position {
+        font-size: 2rem;
+        line-height: 2.9rem;
+    }
+    .vacancy-info :nth-child(2) {
+        padding-left: 30rem;
+    }
+    .vacancy-info :last-child {
+        padding-left: 13rem;
+    }
+    .position-title,
+    .position-subtitle {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .company__brand {
+        margin-right: 5rem;
+    }
+}
