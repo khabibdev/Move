@@ -6,6 +6,49 @@ BELOW 1024PX (Tablets)
     html {
         font-size: 50%;
     }
+    .btn-mobile-nav {
+        display: block;
+    }
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.97);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all 0.5s;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+
+    .chevron-down {
+        display: none;
+    }
+    .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 3rem;
+    }
 
     .heading-primary {
         font-size: 4rem;
@@ -68,13 +111,18 @@ BELOW 375PX (Phones)
     html {
         font-size: 35%;
     }
+    .container {
+        gap: 0;
+        margin-bottom: 0;
+    }
+    .logo {
+        margin-right: 0;
+    }
     .hero {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .container {
-        margin-bottom: 0;
-    }
+
     .find-link {
         margin-bottom: 5rem;
     }
@@ -89,6 +137,7 @@ BELOW 375PX (Phones)
     .offer {
         display: grid;
         grid-template-columns: 1fr;
+        margin-bottom: 2.9rem;
     }
     .offer-div {
         display: grid;

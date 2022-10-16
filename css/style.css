@@ -19,7 +19,21 @@ Header
 /* ******************************
 Navigation
 ****************************** */
-
+.btn-mobile-nav {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    display: none;
+}
+.icon-mobile-nav {
+    height: 4.1rem;
+    width: 4.1rem;
+    color: #8a94a6;
+}
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
 .main-nav-link {
     margin-right: 1.5rem;
     color: #8a94a6;
