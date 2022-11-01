@@ -13,7 +13,6 @@ Header
 
 .logo {
     height: 5.4rem;
-    margin-right: 41.25rem;
 }
 
 /* ******************************
@@ -86,9 +85,19 @@ Navigation
 Hero Section
 ******************************* */
 
-.hero {
+.section-hero {
+    padding: 10.8rem 0;
+}
+
+.section-hero-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-picture {
+    display: flex;
+    justify-content: end;
 }
 
 .hero-img {
@@ -121,10 +130,6 @@ Hero Section
     text-decoration: none;
 }
 
-.hero-text-box {
-    padding-top: 10rem;
-}
-
 /* ******************************
 Offer Section
 ******************************* */
@@ -132,7 +137,7 @@ Offer Section
 .section-offer {
     background-color: #fafbfc;
     padding-top: 10.8rem;
-    max-width: 144rem;
+    /* max-width: 144rem; */
     margin: 0 auto;
     height: 109.9rem;
 }
@@ -204,78 +209,70 @@ Vacancy Section
 ******************************* */
 
 .vacancy-section {
-    align-items: center;
-    text-align: center;
+    padding: 10.8rem 0;
     background-color: #fafbfc;
-    padding-top: 10.8rem !important;
-    max-width: 144rem;
-    padding: 3.8rem 10rem;
+}
+
+.vacancy-section .heading-primary,
+.vacancy-section .heading-describtion {
     margin: 0 auto;
+    text-align: center;
+    width: 77rem;
 }
-.vacancy-info {
-    display: flex;
-    max-width: 144rem;
-    padding-left: 14rem;
-}
-
-.vacancy-info :nth-child(2) {
-    padding-left: 36rem;
+.vacancy-section .heading-primary {
+    margin-bottom: 3.5rem;
 }
 
-.vacancy-info :last-child {
-    padding-left: 15rem;
-}
-.vacancy-title {
-    display: flex;
-}
-.vacancy-text {
-    margin-bottom: 7.754rem !important;
-    align-items: center;
+.vacancy-section .heading-describtion {
+    margin-bottom: 7.7rem;
 }
 
-.vacancy-position {
-    font-weight: 60rem;
+.vacancies-header {
+    display: grid;
+    grid-template-columns: 42.4rem 24.4rem 1fr;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    width: 88rem;
+    margin-bottom: 2rem;
+}
+
+.vacancy-header-title {
+    font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.9rem;
     color: #323b4b;
 }
 
-.position {
-    background-color: #ffffff;
-    border-radius: 15px;
-    max-width: 144rem;
+.vacancy {
     height: 11.5rem;
+    width: 88rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
     display: grid;
-    margin-bottom: 2.5rem;
+    grid-template-columns: 42.4rem 24.4rem 1fr;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1.5rem;
 }
 
-.position-title {
+.vacancy {
+    margin-bottom: 2.5rem;
+}
+.btn-margin {
+    margin-bottom: 9rem;
+}
+.vacancy-title {
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.4rem;
     color: #323b4b;
 }
 
-.position-subtitle {
+.vacancy-department,
+.vacancy-location {
     font-weight: 500;
     font-size: 2rem;
     line-height: 2.4rem;
-}
-
-.positions {
-    text-align: left;
-    margin-bottom: 5.4rem !important;
-}
-.box {
-    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
-}
-
-.padding {
-    padding: 4.429rem 0 4.671rem 3.2rem;
-}
-
-.center {
-    text-align: center;
 }
 
 .btn {
@@ -285,15 +282,20 @@ Vacancy Section
     color: #377dff;
     background-color: #e5f1ff;
     border-radius: 10px;
-    width: 60.4rem;
+    padding: 0 10.3rem;
+
     height: 6.6rem;
     cursor: pointer;
     transition: all 0.3s;
+    border: none;
+
+    display: block;
+    margin: 0 auto;
 }
 
 .btn:hover {
-    background-color: #2758b3;
-    color: #fff;
+    background-color: #377dff;
+    color: #e5f1ff;
 }
 
 /* *************************

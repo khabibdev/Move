@@ -24,9 +24,7 @@ General Reusable Components
 .container {
     /* 1440px */
     max-width: 144rem;
-    padding: 3.8rem 10rem;
     margin: 0 auto;
-    margin-bottom: 15rem;
 }
 .grid {
     display: grid;
@@ -40,4 +38,8 @@ General Reusable Components
 
 .grid--3-cols {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
 }
