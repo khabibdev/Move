@@ -37,6 +37,9 @@ Navigation
     margin-right: 1.5rem;
     color: #8a94a6;
 }
+.main-nav {
+    display: flex;
+}
 .main-nav-list {
     list-style: none;
     display: flex;
@@ -56,20 +59,19 @@ Navigation
     color: #377dff;
 }
 
-.nav-cta {
-    margin: 0;
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
+.btn-nav {
+    font-weight: 600;
+    font-size: 2rem;
     padding: 1.6rem 2.3rem;
     border-radius: 10px;
     color: #fff;
     background-color: #377dff;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
 }
 
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
+.btn-nav:hover {
     background-color: #2758b3;
     color: #fff;
 }
@@ -283,12 +285,10 @@ Vacancy Section
     background-color: #e5f1ff;
     border-radius: 10px;
     padding: 0 10.3rem;
-
     height: 6.6rem;
     cursor: pointer;
     transition: all 0.3s;
     border: none;
-
     display: block;
     margin: 0 auto;
 }
